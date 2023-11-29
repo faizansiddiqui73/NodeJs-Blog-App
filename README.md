@@ -5,7 +5,6 @@
 </head>
 <body>
   <h1>Blog App using Node.js and MongoDB</h1>
-d
   <h2>Overview</h2>
   <p>Welcome to the README for our Blog App! This document provides instructions on how to clone and run the app on your local machine.</p>
 

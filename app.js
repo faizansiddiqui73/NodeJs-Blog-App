@@ -13,7 +13,7 @@ const ConnectDB = require('./server/config/db');
 const session = require('express-session');
 
 const app = express();
-const PORT = 3000 || process.env.PORT;
+const port = process.env.PORT || 3000;
 
 //connect to database
 ConnectDB();
@@ -47,7 +47,7 @@ app.use('/', require('./server/routes/main'));
 app.use('/', require('./server/routes/admin'));
 
 
-app.listen(PORT, () => {
-    console.log(`App listening on http://localhost:${PORT} `);
+app.listen(port, () => {
+    console.log(`App listening on http://localhost:${port} `);
 });
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -90,3 +91,6 @@ MONGODB_URI=your_mongodb_connection_uri</code></pre>
   </ul>
 </body>
 </html>
+=======
+
+>>>>>>> origin/main

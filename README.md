@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
 </head>
 <body>
   <h1>Blog App using Node.js and MongoDB</h1>

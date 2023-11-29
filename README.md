@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Blog App using Node.js and MongoDB</title>
 </head>
 <body>
   <h1>Blog App using Node.js and MongoDB</h1>
@@ -14,17 +15,17 @@
     <pre><code>git clone [repository_url]</code></pre>
 
     <li>Install dependencies:</li>
-    <pre><code>cd [project_folder]
+    <pre><code>cd your_project_folder
 npm install</code></pre>
 
-    <li>Set up the MongoDB:</li>
+    <li>Set up MongoDB:</li>
     <pre><code>Ensure MongoDB is installed and running
 Create a MongoDB database for the app</code></pre>
 
     <li>Set environment variables:</li>
     <pre><code>Create a .env file with the following variables:
-PORT=3000
-MONGODB_URI=your_mongodb_connection_uri</code></pre>
+  PORT=3000
+  MONGODB_URI=your_actual_mongodb_connection_uri</code></pre>
 
     <li>Run the application:</li>
     <pre><code>npm start</code></pre>
@@ -36,7 +37,7 @@ MONGODB_URI=your_mongodb_connection_uri</code></pre>
   <h2>Contact Information</h2>
   <p>If you have any questions or need support, feel free to reach out to us:</p>
   <ul>
-    <li>Email:faizansiddiqui73@gmail.com</li>
+    <li>Email: <a href="mailto:faizansiddiqui73@gmail.com">faizansiddiqui73@gmail.com</a></li>
   </ul>
 </body>
 </html>
